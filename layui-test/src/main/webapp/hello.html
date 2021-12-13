@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>开始使用 layui</title>
+  <link rel="stylesheet" type="text/css" href="file://F:\IDE\layui-test\src\main\webapp\asset\css\layui.css">
+  <script src="file://F:\IDE\layui-test\src\main\webapp\asset\layui.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+<!-- 你的HTML代码 -->
+<div class="login-wrapper">
+  <div class="login-header">
+    <img src="../../assets/images/logo.png"> 博客后台
+  </div>
+  <div class="login-body">
+    <div class="layui-card">
+      <div class="layui-card-header">
+        <i class="layui-icon layui-icon-engine"></i>&nbsp;&nbsp;管理员登录
+      </div>
+      <form class="layui-card-body layui-form layui-form-pane">
+        <div class="layui-form-item">
+          <label class="layui-form-label"><i class="layui-icon layui-icon-username"></i></label>
+          <div class="layui-input-block">
+            <input name="code" type="text" placeholder="code" class="layui-input"
+                   lay-verType="tips" lay-verify="required" required/>
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label"><i class="layui-icon layui-icon-password"></i></label>
+          <div class="layui-input-block">
+            <input name="password" type="password" placeholder="密码" class="layui-input"
+                   lay-verType="tips" lay-verify="required" required/>
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label"><i class="layui-icon layui-icon-vercode"></i></label>
+          <div class="layui-input-block">
+            <div class="layui-row inline-block">
+              <div id="drag"></div>
+            </div>
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <button lay-filter="login-submit" id="submit" style="opacity:0.5;pointer-events:none;" class="layui-btn layui-btn-fluid" lay-submit>登 录</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  layui.use(['layer', 'form'], function () {
+    var $ = layui.jquery;
+    var layer = layui.layer;
+    var form = layui.form;
+    $('#drag').drag();
+    // 表单提交
+    form.on('submit(login-submit)', function (obj) {
+      $.ajax({
+        type: "post",
+        contentType: 'application/json',
+        url: "/user",
+        data: JSON.stringify(obj.field),
+        dataType: 'json',
+        success: function (data) {
+          if (data.code == '200') {
+            layer.msg('登录成功',
+                    {
+                      icon: 1,
+                      time: 1500
+                    }, function () {
+                      location.replace('/index')
+                    })
+          } else {
+            layer.alert(data.msg, {icon: 2}, function (index) {
+              layer.close(index);
+            });
+          }
+        }
+      })
+      return false;
+    });
+
+  });
+</script>
+</body>
+</html>

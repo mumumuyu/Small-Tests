@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    function a1() {
+        //所有参数：
+        //url:待载入页面的URL地址，Json
+        //data:待发送Key/value参数
+        //success:载入成功时回调函数
+        //data：封装了服务器返回的数据
+        //status：状态
+        $.ajax({
+            url:"/a1",
+            data:{"name":$("#txtName").val()},
+            success:function (data,status) {
+                console.log(data)
+                console.log(status)
+            }
+        });
+        //将文本输入的值，
+        $("#txtName").val();
+        // //发送给服务器，
+        // //接受服务器返回的数据
+    }
+    $(function(){
+        $("#btn").click(function(){
+            $.post("/a2",function(data){
+                console.log(data);
+                var html="";
+                for(var i=0;i<data.length;i++){
+                    html+="<tr>"+
+                        "<td>"+data[i].name+"</td>"+
+                        "<td>"+data[i].age+"</td>"+
+                        "<td>"+data[i].sex+"</td>"+
+                        "</tr>"
+                }
+                $("#content").html(html);
+            })
+        })
+    })
+</script>
+</body>
+    <input type="text" id="txtName" onblur="a1()"/>
+</html>

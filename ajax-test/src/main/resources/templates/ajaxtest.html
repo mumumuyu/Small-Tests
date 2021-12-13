@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/ico/favicon.ico}" rel='shortcut icon' type='image/vnd.microsoft.icon'>
+    <title>Title</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $.ajax({
+        type:"get",
+        url:"/a4",
+        data:{
+            uname:"zhangsan"
+        },
+        success:function (data) {
+            console.log(data);
+        }
+    })
+</script>
+<body>
+
+</body>
+</html>

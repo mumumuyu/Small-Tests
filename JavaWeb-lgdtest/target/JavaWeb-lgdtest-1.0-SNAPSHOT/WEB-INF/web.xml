@@ -1,0 +1,98 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <welcome-file-list>
+    <welcome-file>C9/welcome.jsp</welcome-file>
+  </welcome-file-list>
+
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>com.lgd.filter.CharacterEncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <!-- <url-pattern>/*</url-pattern>-->
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/servlet/welcome</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>VoteServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.vote.VoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VoteServlet</servlet-name>
+    <url-pattern>/servlet/vote</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>VotesServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.vote.VotesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VotesServlet</servlet-name>
+    <url-pattern>/servlet/votes</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateScoreServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.score.updateScoreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateScoreServlet</servlet-name>
+    <url-pattern>/servlet/updateScore</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>initServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.initServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>initServlet</servlet-name>
+    <url-pattern>/servlet/init</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DealWithServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.DealWithServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DealWithServlet</servlet-name>
+    <url-pattern>/servlet/dealwith</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.user.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.lgd.servlet.user.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register.do</url-pattern>
+  </servlet-mapping>
+
+  <error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/error.jsp</location>
+  </error-page>
+</web-app>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <script src="../js/jquery-3.6.0.js" type="text/javascript" charset="UTF-8"></script>
+    <script>
+        function a1(){
+            $.post({
+                url:"/a3",
+                data:{"name":$("#name").val()},
+                success:function(data){
+                    if(data.toString()=='ok'){
+                        //信息核对成功
+                        $('#userInfo').css("color","green");
+                    }else{
+                        $("#userInfo").css("color","red");
+                    }
+                    $("#userInfo").html(data);
+                }
+            })
+        }
+        function a2(){
+            $.post({
+                url:"/a3",
+                data:{"pwd":$("#pwd").val()},
+            success:function(data) {
+                if (data.toString() == 'ok') {//信息核对成功
+                    $('#pwdInfo').css("color", "green");
+                } else {
+                    $('#pwdInfo').css("color", "red");
+                }
+                $("#pwdInfo").html(data);
+                }
+            })
+        }
+        function a3(){
+            $.post({
+                url:"/a5",
+                data:{"pwd":$("#pwd").val(),"name":$("#name").val()},
+                success:function(data) {
+                    if (data.toString() == 'ok') {//信息核对成功
+                        window.location.href="/index";
+                    } else {
+                        $('#loginInfo').css("color", "red");
+                    }
+                    $("#loginInfo").html(data);
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<p>
+    用户名：
+    <input type="text" id="name" onblur="a1()"/>
+    <span id="userInfo"></span>
+</p>
+<p>
+    密码：
+    <input type="text" id="pwd" onblur="a2()"/>
+    <span id="pwdInfo"></span>
+</p>
+<input type="button" onclick="a3()">
+<span id="loginInfo"></span>
+
+
+</body>
+</html>
