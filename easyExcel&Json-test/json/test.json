@@ -1,0 +1,2181 @@
+[
+  {
+    "id": 1,
+    "name": "1号线",
+    "linecolor": "rgba(243,29,39,1)",
+    "round": [
+      {
+        "id": 8,
+        "lineId": 1,
+        "name": "九堡站",
+        "turnline": []
+      },
+      {
+        "id": 9,
+        "lineId": 1,
+        "name": "九和路站",
+        "turnline": []
+      },
+      {
+        "id": 10,
+        "lineId": 1,
+        "name": "七堡站",
+        "turnline": []
+      },
+      {
+        "id": 11,
+        "lineId": 1,
+        "name": "彭埠站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "lineId": 1,
+        "name": "火车东站站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "lineId": 1,
+        "name": "闸弄口站",
+        "turnline": []
+      },
+      {
+        "id": 14,
+        "lineId": 1,
+        "name": "打铁关站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "lineId": 1,
+        "name": "西湖文化广场站",
+        "turnline": [
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "lineId": 1,
+        "name": "武林广场站",
+        "turnline": [
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "lineId": 1,
+        "name": "凤起路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "lineId": 1,
+        "name": "龙翔桥站",
+        "turnline": []
+      },
+      {
+        "id": 19,
+        "lineId": 1,
+        "name": "定安路站",
+        "turnline": []
+      },
+      {
+        "id": 20,
+        "lineId": 1,
+        "name": "城站站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "lineId": 1,
+        "name": "婺江路站",
+        "turnline": []
+      },
+      {
+        "id": 22,
+        "lineId": 1,
+        "name": "近江站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "lineId": 1,
+        "name": "江陵路站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "lineId": 1,
+        "name": "滨和路站",
+        "turnline": []
+      },
+      {
+        "id": 25,
+        "lineId": 1,
+        "name": "西兴站",
+        "turnline": []
+      },
+      {
+        "id": 26,
+        "lineId": 1,
+        "name": "滨康路站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "lineId": 1,
+        "name": "湘湖站",
+        "turnline": []
+      },
+      {
+        "id": 28,
+        "lineId": 1,
+        "name": "下沙西站",
+        "turnline": []
+      },
+      {
+        "id": 29,
+        "lineId": 1,
+        "name": "金沙湖站",
+        "turnline": []
+      },
+      {
+        "id": 30,
+        "lineId": 1,
+        "name": "高沙路站",
+        "turnline": []
+      },
+      {
+        "id": 31,
+        "lineId": 1,
+        "name": "文泽路站",
+        "turnline": []
+      },
+      {
+        "id": 32,
+        "lineId": 1,
+        "name": "文海南路站",
+        "turnline": [
+          {
+            "title": "8号线",
+            "linecolor": "rgba(143,24,86,1)"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "lineId": 1,
+        "name": "云水站",
+        "turnline": []
+      },
+      {
+        "id": 34,
+        "lineId": 1,
+        "name": "下沙江滨站",
+        "turnline": []
+      },
+      {
+        "id": 156,
+        "lineId": 1,
+        "name": "杭州大会展中心站",
+        "turnline": []
+      },
+      {
+        "id": 157,
+        "lineId": 1,
+        "name": "港城大道站",
+        "turnline": []
+      },
+      {
+        "id": 158,
+        "lineId": 1,
+        "name": "南阳站",
+        "turnline": []
+      },
+      {
+        "id": 159,
+        "lineId": 1,
+        "name": "向阳路站",
+        "turnline": []
+      },
+      {
+        "id": 160,
+        "lineId": 1,
+        "name": "萧山国际机场站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      },
+      {
+        "id": 199,
+        "lineId": 1,
+        "name": "客运中心站",
+        "turnline": [
+          {
+            "title": "9号线",
+            "linecolor": "rgba(190,77,0,1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "2号线",
+    "linecolor": "rgba(255,128,0,1)",
+    "round": [
+      {
+        "id": 35,
+        "lineId": 2,
+        "name": "朝阳站",
+        "turnline": []
+      },
+      {
+        "id": 36,
+        "lineId": 2,
+        "name": "曹家桥站",
+        "turnline": []
+      },
+      {
+        "id": 37,
+        "lineId": 2,
+        "name": "潘水站",
+        "turnline": []
+      },
+      {
+        "id": 38,
+        "lineId": 2,
+        "name": "人民路站",
+        "turnline": []
+      },
+      {
+        "id": 39,
+        "lineId": 2,
+        "name": "杭发厂站",
+        "turnline": []
+      },
+      {
+        "id": 40,
+        "lineId": 2,
+        "name": "人民广场站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "lineId": 2,
+        "name": "建设一路站",
+        "turnline": []
+      },
+      {
+        "id": 42,
+        "lineId": 2,
+        "name": "建设三路站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "lineId": 2,
+        "name": "振宁路站",
+        "turnline": []
+      },
+      {
+        "id": 44,
+        "lineId": 2,
+        "name": "飞虹路站",
+        "turnline": []
+      },
+      {
+        "id": 45,
+        "lineId": 2,
+        "name": "盈丰路站",
+        "turnline": []
+      },
+      {
+        "id": 46,
+        "lineId": 2,
+        "name": "钱江世纪城站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "lineId": 2,
+        "name": "钱江路站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          },
+          {
+            "title": "9号线",
+            "linecolor": "rgba(190,77,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "lineId": 2,
+        "name": "庆春广场站",
+        "turnline": []
+      },
+      {
+        "id": 49,
+        "lineId": 2,
+        "name": "庆菱路站",
+        "turnline": []
+      },
+      {
+        "id": 50,
+        "lineId": 2,
+        "name": "建国北路站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "lineId": 2,
+        "name": "中河北路站",
+        "turnline": []
+      },
+      {
+        "id": 52,
+        "lineId": 2,
+        "name": "凤起路站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "lineId": 2,
+        "name": "武林门站",
+        "turnline": []
+      },
+      {
+        "id": 54,
+        "lineId": 2,
+        "name": "沈塘桥站",
+        "turnline": []
+      },
+      {
+        "id": 55,
+        "lineId": 2,
+        "name": "下宁桥站",
+        "turnline": []
+      },
+      {
+        "id": 56,
+        "lineId": 2,
+        "name": "学院路站",
+        "turnline": []
+      },
+      {
+        "id": 57,
+        "lineId": 2,
+        "name": "古翠路站",
+        "turnline": []
+      },
+      {
+        "id": 58,
+        "lineId": 2,
+        "name": "丰潭路站",
+        "turnline": []
+      },
+      {
+        "id": 59,
+        "lineId": 2,
+        "name": "文新站",
+        "turnline": []
+      },
+      {
+        "id": 60,
+        "lineId": 2,
+        "name": "三坝站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "lineId": 2,
+        "name": "虾龙圩站",
+        "turnline": []
+      },
+      {
+        "id": 62,
+        "lineId": 2,
+        "name": "三墩站",
+        "turnline": []
+      },
+      {
+        "id": 63,
+        "lineId": 2,
+        "name": "墩祥街站",
+        "turnline": []
+      },
+      {
+        "id": 64,
+        "lineId": 2,
+        "name": "金家渡站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "lineId": 2,
+        "name": "白洋站",
+        "turnline": []
+      },
+      {
+        "id": 66,
+        "lineId": 2,
+        "name": "杜甫村站",
+        "turnline": []
+      },
+      {
+        "id": 67,
+        "lineId": 2,
+        "name": "良渚站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "3号线",
+    "linecolor": "rgba(255,205,0,1)",
+    "round": [
+      {
+        "id": 212,
+        "lineId": 11,
+        "name": "潮王路站",
+        "turnline": []
+      },
+      {
+        "id": 213,
+        "lineId": 11,
+        "name": "香积寺站",
+        "turnline": []
+      },
+      {
+        "id": 214,
+        "lineId": 11,
+        "name": "大关站",
+        "turnline": []
+      },
+      {
+        "id": 215,
+        "lineId": 11,
+        "name": "善贤站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "lineId": 11,
+        "name": "新天地街站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "lineId": 11,
+        "name": "汽轮广场站",
+        "turnline": []
+      },
+      {
+        "id": 218,
+        "lineId": 11,
+        "name": "华丰路站",
+        "turnline": []
+      },
+      {
+        "id": 219,
+        "lineId": 11,
+        "name": "同协路站",
+        "turnline": []
+      },
+      {
+        "id": 220,
+        "lineId": 11,
+        "name": "桃花湖公园站",
+        "turnline": []
+      },
+      {
+        "id": 221,
+        "lineId": 11,
+        "name": "丁桥站",
+        "turnline": []
+      },
+      {
+        "id": 222,
+        "lineId": 11,
+        "name": "华鹤街站",
+        "turnline": []
+      },
+      {
+        "id": 223,
+        "lineId": 11,
+        "name": "黄鹤山站",
+        "turnline": []
+      },
+      {
+        "id": 224,
+        "lineId": 11,
+        "name": "星桥站",
+        "turnline": []
+      },
+      {
+        "id": 263,
+        "lineId": 11,
+        "name": "黄龙体育中心站",
+        "turnline": []
+      },
+      {
+        "id": 264,
+        "lineId": 11,
+        "name": "黄龙洞站",
+        "turnline": []
+      },
+      {
+        "id": 265,
+        "lineId": 11,
+        "name": "武林门站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "lineId": 11,
+        "name": "武林广场站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 267,
+        "lineId": 11,
+        "name": "西湖文化广场站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 268,
+        "lineId": 11,
+        "name": "石马站",
+        "turnline": []
+      },
+      {
+        "id": 269,
+        "lineId": 11,
+        "name": "小和山站",
+        "turnline": []
+      },
+      {
+        "id": 270,
+        "lineId": 11,
+        "name": "屏峰站",
+        "turnline": []
+      },
+      {
+        "id": 271,
+        "lineId": 11,
+        "name": "留下站",
+        "turnline": []
+      },
+      {
+        "id": 273,
+        "lineId": 11,
+        "name": "文一西路站",
+        "turnline": []
+      },
+      {
+        "id": 274,
+        "lineId": 11,
+        "name": "绿汀路站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          },
+          {
+            "title": "16号线",
+            "linecolor": "rgba(255,178,91,1)"
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "lineId": 11,
+        "name": "创明路站",
+        "turnline": []
+      },
+      {
+        "id": 276,
+        "lineId": 11,
+        "name": "全丰站",
+        "turnline": []
+      },
+      {
+        "id": 277,
+        "lineId": 11,
+        "name": "高教路站",
+        "turnline": []
+      },
+      {
+        "id": 278,
+        "lineId": 11,
+        "name": "联胜路站",
+        "turnline": []
+      },
+      {
+        "id": 279,
+        "lineId": 11,
+        "name": "洪园站",
+        "turnline": []
+      },
+      {
+        "id": 280,
+        "lineId": 11,
+        "name": "西溪湿地南站",
+        "turnline": []
+      },
+      {
+        "id": 281,
+        "lineId": 11,
+        "name": "花坞站",
+        "turnline": []
+      },
+      {
+        "id": 282,
+        "lineId": 11,
+        "name": "东岳站",
+        "turnline": []
+      },
+      {
+        "id": 283,
+        "lineId": 11,
+        "name": "古墩路站",
+        "turnline": []
+      },
+      {
+        "id": 284,
+        "lineId": 11,
+        "name": "古荡新村站",
+        "turnline": []
+      },
+      {
+        "id": 285,
+        "lineId": 11,
+        "name": "古荡站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "4号线",
+    "linecolor": "rgba(35,172,56,1)",
+    "round": [
+      {
+        "id": 68,
+        "lineId": 3,
+        "name": "彭埠站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "lineId": 3,
+        "name": "火车东站站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "lineId": 3,
+        "name": "新风站",
+        "turnline": []
+      },
+      {
+        "id": 71,
+        "lineId": 3,
+        "name": "新塘站",
+        "turnline": []
+      },
+      {
+        "id": 72,
+        "lineId": 3,
+        "name": "景芳站",
+        "turnline": []
+      },
+      {
+        "id": 73,
+        "lineId": 3,
+        "name": "钱江路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          },
+          {
+            "title": "9号线",
+            "linecolor": "rgba(190,77,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "lineId": 3,
+        "name": "江锦路站",
+        "turnline": []
+      },
+      {
+        "id": 75,
+        "lineId": 3,
+        "name": "市民中心站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "lineId": 3,
+        "name": "城星路站",
+        "turnline": []
+      },
+      {
+        "id": 77,
+        "lineId": 3,
+        "name": "近江站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "lineId": 3,
+        "name": "甬江路站",
+        "turnline": []
+      },
+      {
+        "id": 79,
+        "lineId": 3,
+        "name": "南星桥站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "lineId": 3,
+        "name": "复兴路站",
+        "turnline": []
+      },
+      {
+        "id": 81,
+        "lineId": 3,
+        "name": "水澄桥站",
+        "turnline": []
+      },
+      {
+        "id": 82,
+        "lineId": 3,
+        "name": "联庄站",
+        "turnline": []
+      },
+      {
+        "id": 83,
+        "lineId": 3,
+        "name": "中医药大学站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "lineId": 3,
+        "name": "杨家墩站",
+        "turnline": []
+      },
+      {
+        "id": 85,
+        "lineId": 3,
+        "name": "浦沿站",
+        "turnline": []
+      },
+      {
+        "id": 234,
+        "lineId": 3,
+        "name": "明石路站",
+        "turnline": []
+      },
+      {
+        "id": 235,
+        "lineId": 3,
+        "name": "黎明站",
+        "turnline": []
+      },
+      {
+        "id": 236,
+        "lineId": 3,
+        "name": "笕桥老街站",
+        "turnline": []
+      },
+      {
+        "id": 237,
+        "lineId": 3,
+        "name": "华中南路站",
+        "turnline": []
+      },
+      {
+        "id": 238,
+        "lineId": 3,
+        "name": "新天地街站",
+        "turnline": [
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "lineId": 3,
+        "name": "皋亭坝站",
+        "turnline": []
+      },
+      {
+        "id": 240,
+        "lineId": 3,
+        "name": "桃源街站",
+        "turnline": []
+      },
+      {
+        "id": 241,
+        "lineId": 3,
+        "name": "吴家角港站",
+        "turnline": []
+      },
+      {
+        "id": 242,
+        "lineId": 3,
+        "name": "平安桥站",
+        "turnline": []
+      },
+      {
+        "id": 243,
+        "lineId": 3,
+        "name": "储运路站",
+        "turnline": []
+      },
+      {
+        "id": 244,
+        "lineId": 3,
+        "name": "杭行路站",
+        "turnline": [
+          {
+            "title": "10号线",
+            "linecolor": "rgba(218,169,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 245,
+        "lineId": 3,
+        "name": "好运街站",
+        "turnline": []
+      },
+      {
+        "id": 246,
+        "lineId": 3,
+        "name": "金家渡站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 247,
+        "lineId": 3,
+        "name": "池华街站",
+        "turnline": []
+      },
+      {
+        "id": 248,
+        "lineId": 3,
+        "name": "独城生态公园站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "5号线",
+    "linecolor": "rgba(0,174,206,1)",
+    "round": [
+      {
+        "id": 86,
+        "lineId": 4,
+        "name": "金星站",
+        "turnline": []
+      },
+      {
+        "id": 87,
+        "lineId": 4,
+        "name": "绿汀路站",
+        "turnline": [
+          {
+            "title": "16号线",
+            "linecolor": "rgba(255,178,91,1)"
+          },
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "lineId": 4,
+        "name": "葛巷站",
+        "turnline": []
+      },
+      {
+        "id": 89,
+        "lineId": 4,
+        "name": "创景路站",
+        "turnline": []
+      },
+      {
+        "id": 90,
+        "lineId": 4,
+        "name": "良睦路站",
+        "turnline": []
+      },
+      {
+        "id": 91,
+        "lineId": 4,
+        "name": "杭师大仓前站",
+        "turnline": []
+      },
+      {
+        "id": 92,
+        "lineId": 4,
+        "name": "永福站",
+        "turnline": []
+      },
+      {
+        "id": 93,
+        "lineId": 4,
+        "name": "五常站",
+        "turnline": []
+      },
+      {
+        "id": 94,
+        "lineId": 4,
+        "name": "蒋村站",
+        "turnline": []
+      },
+      {
+        "id": 95,
+        "lineId": 4,
+        "name": "浙大紫金港站",
+        "turnline": []
+      },
+      {
+        "id": 96,
+        "lineId": 4,
+        "name": "三坝站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "lineId": 4,
+        "name": "萍水街站",
+        "turnline": []
+      },
+      {
+        "id": 98,
+        "lineId": 4,
+        "name": "和睦站",
+        "turnline": [
+          {
+            "title": "10号线",
+            "linecolor": "rgba(218,169,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "lineId": 4,
+        "name": "大运河站",
+        "turnline": []
+      },
+      {
+        "id": 100,
+        "lineId": 4,
+        "name": "拱宸桥东站",
+        "turnline": []
+      },
+      {
+        "id": 101,
+        "lineId": 4,
+        "name": "善贤站",
+        "turnline": [
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "lineId": 4,
+        "name": "西文街站",
+        "turnline": []
+      },
+      {
+        "id": 103,
+        "lineId": 4,
+        "name": "东新园站",
+        "turnline": []
+      },
+      {
+        "id": 104,
+        "lineId": 4,
+        "name": "杭氧站",
+        "turnline": []
+      },
+      {
+        "id": 105,
+        "lineId": 4,
+        "name": "打铁关站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "lineId": 4,
+        "name": "宝善桥站",
+        "turnline": []
+      },
+      {
+        "id": 107,
+        "lineId": 4,
+        "name": "建国北路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "lineId": 4,
+        "name": "万安桥站",
+        "turnline": []
+      },
+      {
+        "id": 109,
+        "lineId": 4,
+        "name": "城站站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "lineId": 4,
+        "name": "江城路站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "lineId": 4,
+        "name": "候潮门站",
+        "turnline": []
+      },
+      {
+        "id": 112,
+        "lineId": 4,
+        "name": "南星桥站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "lineId": 4,
+        "name": "长河站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "lineId": 4,
+        "name": "聚才路站",
+        "turnline": []
+      },
+      {
+        "id": 115,
+        "lineId": 4,
+        "name": "江晖路站",
+        "turnline": []
+      },
+      {
+        "id": 116,
+        "lineId": 4,
+        "name": "滨康路站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "lineId": 4,
+        "name": "博奥路站",
+        "turnline": []
+      },
+      {
+        "id": 118,
+        "lineId": 4,
+        "name": "金鸡路站",
+        "turnline": []
+      },
+      {
+        "id": 119,
+        "lineId": 4,
+        "name": "人民广场站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "lineId": 4,
+        "name": "育才北路站",
+        "turnline": []
+      },
+      {
+        "id": 121,
+        "lineId": 4,
+        "name": "通惠中路站",
+        "turnline": []
+      },
+      {
+        "id": 122,
+        "lineId": 4,
+        "name": "火车南站站",
+        "turnline": []
+      },
+      {
+        "id": 123,
+        "lineId": 4,
+        "name": "双桥站",
+        "turnline": []
+      },
+      {
+        "id": 124,
+        "lineId": 4,
+        "name": "姑娘桥站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "6号线",
+    "linecolor": "rgba(0,114,206,1)",
+    "round": [
+      {
+        "id": 161,
+        "lineId": 6,
+        "name": "桂花西路站",
+        "turnline": []
+      },
+      {
+        "id": 162,
+        "lineId": 6,
+        "name": "公望街站",
+        "turnline": []
+      },
+      {
+        "id": 163,
+        "lineId": 6,
+        "name": "阳陂湖站",
+        "turnline": []
+      },
+      {
+        "id": 164,
+        "lineId": 6,
+        "name": "高桥站",
+        "turnline": []
+      },
+      {
+        "id": 165,
+        "lineId": 6,
+        "name": "富阳客运中心站",
+        "turnline": []
+      },
+      {
+        "id": 166,
+        "lineId": 6,
+        "name": "受降站",
+        "turnline": []
+      },
+      {
+        "id": 167,
+        "lineId": 6,
+        "name": "虎啸杏站",
+        "turnline": []
+      },
+      {
+        "id": 168,
+        "lineId": 6,
+        "name": "银湖站",
+        "turnline": []
+      },
+      {
+        "id": 169,
+        "lineId": 6,
+        "name": "野生动物园东站",
+        "turnline": []
+      },
+      {
+        "id": 170,
+        "lineId": 6,
+        "name": "中村站",
+        "turnline": []
+      },
+      {
+        "id": 171,
+        "lineId": 6,
+        "name": "音乐学院站",
+        "turnline": []
+      },
+      {
+        "id": 172,
+        "lineId": 6,
+        "name": "美院象山站",
+        "turnline": []
+      },
+      {
+        "id": 173,
+        "lineId": 6,
+        "name": "枫桦西路站",
+        "turnline": []
+      },
+      {
+        "id": 174,
+        "lineId": 6,
+        "name": "之浦路站",
+        "turnline": []
+      },
+      {
+        "id": 175,
+        "lineId": 6,
+        "name": "西浦路站",
+        "turnline": []
+      },
+      {
+        "id": 176,
+        "lineId": 6,
+        "name": "中医药大学站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 177,
+        "lineId": 6,
+        "name": "伟业路站",
+        "turnline": []
+      },
+      {
+        "id": 178,
+        "lineId": 6,
+        "name": "诚业路站",
+        "turnline": []
+      },
+      {
+        "id": 179,
+        "lineId": 6,
+        "name": "建业路站",
+        "turnline": []
+      },
+      {
+        "id": 180,
+        "lineId": 6,
+        "name": "长河站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 181,
+        "lineId": 6,
+        "name": "江汉路站",
+        "turnline": []
+      },
+      {
+        "id": 182,
+        "lineId": 6,
+        "name": "江陵路站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 183,
+        "lineId": 6,
+        "name": "星民站",
+        "turnline": []
+      },
+      {
+        "id": 184,
+        "lineId": 6,
+        "name": "奥体中心站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          },
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 185,
+        "lineId": 6,
+        "name": "博览中心站",
+        "turnline": []
+      },
+      {
+        "id": 186,
+        "lineId": 6,
+        "name": "钱江世纪城站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 187,
+        "lineId": 6,
+        "name": "双浦站",
+        "turnline": []
+      },
+      {
+        "id": 188,
+        "lineId": 6,
+        "name": "科海路站",
+        "turnline": []
+      },
+      {
+        "id": 189,
+        "lineId": 6,
+        "name": "霞鸣街站",
+        "turnline": []
+      },
+      {
+        "id": 205,
+        "lineId": 6,
+        "name": "丰北站",
+        "turnline": []
+      },
+      {
+        "id": 206,
+        "lineId": 6,
+        "name": "亚运村站",
+        "turnline": []
+      },
+      {
+        "id": 207,
+        "lineId": 6,
+        "name": "三堡站",
+        "turnline": [
+          {
+            "title": "9号线",
+            "linecolor": "rgba(190,77,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "lineId": 6,
+        "name": "昙花庵路站",
+        "turnline": []
+      },
+      {
+        "id": 209,
+        "lineId": 6,
+        "name": "元宝塘站",
+        "turnline": []
+      },
+      {
+        "id": 210,
+        "lineId": 6,
+        "name": "火车东站（东广场）站",
+        "turnline": []
+      },
+      {
+        "id": 211,
+        "lineId": 6,
+        "name": "枸桔弄站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "7号线",
+    "linecolor": "rgba(135,24,157,1)",
+    "round": [
+      {
+        "id": 137,
+        "lineId": 7,
+        "name": "奥体中心站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          },
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "lineId": 7,
+        "name": "兴议站",
+        "turnline": []
+      },
+      {
+        "id": 139,
+        "lineId": 7,
+        "name": "明星路站",
+        "turnline": []
+      },
+      {
+        "id": 140,
+        "lineId": 7,
+        "name": "建设三路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "lineId": 7,
+        "name": "新兴路站",
+        "turnline": []
+      },
+      {
+        "id": 142,
+        "lineId": 7,
+        "name": "新汉路站",
+        "turnline": []
+      },
+      {
+        "id": 143,
+        "lineId": 7,
+        "name": "新街站",
+        "turnline": []
+      },
+      {
+        "id": 144,
+        "lineId": 7,
+        "name": "合欢路站",
+        "turnline": []
+      },
+      {
+        "id": 145,
+        "lineId": 7,
+        "name": "盈中站",
+        "turnline": []
+      },
+      {
+        "id": 146,
+        "lineId": 7,
+        "name": "坎山站",
+        "turnline": []
+      },
+      {
+        "id": 147,
+        "lineId": 7,
+        "name": "新港站",
+        "turnline": []
+      },
+      {
+        "id": 148,
+        "lineId": 7,
+        "name": "萧山国际机场站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 149,
+        "lineId": 7,
+        "name": "永盛路站",
+        "turnline": []
+      },
+      {
+        "id": 150,
+        "lineId": 7,
+        "name": "新镇路站",
+        "turnline": []
+      },
+      {
+        "id": 151,
+        "lineId": 7,
+        "name": "义蓬站",
+        "turnline": []
+      },
+      {
+        "id": 152,
+        "lineId": 7,
+        "name": "塘新线站",
+        "turnline": []
+      },
+      {
+        "id": 153,
+        "lineId": 7,
+        "name": "青六中路站",
+        "turnline": [
+          {
+            "title": "8号线",
+            "linecolor": "rgba(143,24,86,1)"
+          }
+        ]
+      },
+      {
+        "id": 154,
+        "lineId": 7,
+        "name": "启成路站",
+        "turnline": []
+      },
+      {
+        "id": 155,
+        "lineId": 7,
+        "name": "江东二路站",
+        "turnline": []
+      },
+      {
+        "id": 200,
+        "lineId": 7,
+        "name": "市民中心站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "lineId": 7,
+        "name": "观音塘站",
+        "turnline": [
+          {
+            "title": "9号线",
+            "linecolor": "rgba(190,77,0,1)"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "lineId": 7,
+        "name": "莫邪塘站",
+        "turnline": []
+      },
+      {
+        "id": 251,
+        "lineId": 7,
+        "name": "江城路站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "lineId": 7,
+        "name": "吴山广场站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "8号线",
+    "linecolor": "rgba(143,24,86,1)",
+    "round": [
+      {
+        "id": 190,
+        "lineId": 8,
+        "name": "文海南路站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 191,
+        "lineId": 8,
+        "name": "工商大学云滨站",
+        "turnline": []
+      },
+      {
+        "id": 192,
+        "lineId": 8,
+        "name": "桥头堡站",
+        "turnline": []
+      },
+      {
+        "id": 193,
+        "lineId": 8,
+        "name": "河庄路站",
+        "turnline": []
+      },
+      {
+        "id": 194,
+        "lineId": 8,
+        "name": "青西三路站",
+        "turnline": []
+      },
+      {
+        "id": 195,
+        "lineId": 8,
+        "name": "青六中路站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "lineId": 8,
+        "name": "仓北村站",
+        "turnline": []
+      },
+      {
+        "id": 197,
+        "lineId": 8,
+        "name": "冯娄村站",
+        "turnline": []
+      },
+      {
+        "id": 198,
+        "lineId": 8,
+        "name": "新湾路站",
+        "turnline": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "9号线",
+    "linecolor": "rgba(190,77,0,1)",
+    "round": [
+      {
+        "id": 1,
+        "lineId": 9,
+        "name": "临平站",
+        "turnline": []
+      },
+      {
+        "id": 2,
+        "lineId": 9,
+        "name": "南苑站",
+        "turnline": []
+      },
+      {
+        "id": 3,
+        "lineId": 9,
+        "name": "临平南高铁站",
+        "turnline": []
+      },
+      {
+        "id": 4,
+        "lineId": 9,
+        "name": "翁梅站",
+        "turnline": []
+      },
+      {
+        "id": 5,
+        "lineId": 9,
+        "name": "乔司站",
+        "turnline": []
+      },
+      {
+        "id": 6,
+        "lineId": 9,
+        "name": "乔司南站",
+        "turnline": []
+      },
+      {
+        "id": 7,
+        "lineId": 9,
+        "name": "客运中心站",
+        "turnline": [
+          {
+            "title": "1号线",
+            "linecolor": "rgba(243,29,39,1)"
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "lineId": 9,
+        "name": "邱山大街站",
+        "turnline": []
+      },
+      {
+        "id": 202,
+        "lineId": 9,
+        "name": "荷禹路站",
+        "turnline": []
+      },
+      {
+        "id": 203,
+        "lineId": 9,
+        "name": "五洲路站",
+        "turnline": []
+      },
+      {
+        "id": 204,
+        "lineId": 9,
+        "name": "龙安站",
+        "turnline": []
+      },
+      {
+        "id": 253,
+        "lineId": 9,
+        "name": "九睦路站",
+        "turnline": []
+      },
+      {
+        "id": 254,
+        "lineId": 9,
+        "name": "红普南路站",
+        "turnline": []
+      },
+      {
+        "id": 255,
+        "lineId": 9,
+        "name": "六堡站",
+        "turnline": []
+      },
+      {
+        "id": 256,
+        "lineId": 9,
+        "name": "五堡站",
+        "turnline": []
+      },
+      {
+        "id": 257,
+        "lineId": 9,
+        "name": "御道站",
+        "turnline": []
+      },
+      {
+        "id": 258,
+        "lineId": 9,
+        "name": "三堡站",
+        "turnline": [
+          {
+            "title": "6号线",
+            "linecolor": "rgba(0,114,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 259,
+        "lineId": 9,
+        "name": "江河汇站",
+        "turnline": []
+      },
+      {
+        "id": 260,
+        "lineId": 9,
+        "name": "钱江路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          },
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "lineId": 9,
+        "name": "新业路站",
+        "turnline": []
+      },
+      {
+        "id": 262,
+        "lineId": 9,
+        "name": "观音塘站",
+        "turnline": [
+          {
+            "title": "7号线",
+            "linecolor": "rgba(135,24,157,1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "10号线",
+    "linecolor": "rgba(218,169,0,1)",
+    "round": [
+      {
+        "id": 225,
+        "lineId": 10,
+        "name": "逸盛路站",
+        "turnline": []
+      },
+      {
+        "id": 226,
+        "lineId": 10,
+        "name": "金德路站",
+        "turnline": []
+      },
+      {
+        "id": 227,
+        "lineId": 10,
+        "name": "杭行路站",
+        "turnline": [
+          {
+            "title": "4号线",
+            "linecolor": "rgba(35,172,56,1)"
+          }
+        ]
+      },
+      {
+        "id": 228,
+        "lineId": 10,
+        "name": "祥园路站",
+        "turnline": []
+      },
+      {
+        "id": 229,
+        "lineId": 10,
+        "name": "渡驾桥站",
+        "turnline": []
+      },
+      {
+        "id": 230,
+        "lineId": 10,
+        "name": "花园岗站",
+        "turnline": []
+      },
+      {
+        "id": 231,
+        "lineId": 10,
+        "name": "和睦站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "lineId": 10,
+        "name": "北大桥站",
+        "turnline": []
+      },
+      {
+        "id": 233,
+        "lineId": 10,
+        "name": "翠柏路站",
+        "turnline": []
+      },
+      {
+        "id": 272,
+        "lineId": 10,
+        "name": "学院路站",
+        "turnline": [
+          {
+            "title": "2号线",
+            "linecolor": "rgba(255,128,0,1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "16号线",
+    "linecolor": "rgba(255,178,91,1)",
+    "round": [
+      {
+        "id": 125,
+        "lineId": 5,
+        "name": "九州街站",
+        "turnline": []
+      },
+      {
+        "id": 126,
+        "lineId": 5,
+        "name": "临安广场站",
+        "turnline": []
+      },
+      {
+        "id": 127,
+        "lineId": 5,
+        "name": "农林大学站",
+        "turnline": []
+      },
+      {
+        "id": 128,
+        "lineId": 5,
+        "name": "青山湖站",
+        "turnline": []
+      },
+      {
+        "id": 129,
+        "lineId": 5,
+        "name": "八百里站",
+        "turnline": []
+      },
+      {
+        "id": 130,
+        "lineId": 5,
+        "name": "青山湖科技城站",
+        "turnline": []
+      },
+      {
+        "id": 131,
+        "lineId": 5,
+        "name": "南峰站",
+        "turnline": []
+      },
+      {
+        "id": 132,
+        "lineId": 5,
+        "name": "南湖站",
+        "turnline": []
+      },
+      {
+        "id": 133,
+        "lineId": 5,
+        "name": "中泰站",
+        "turnline": []
+      },
+      {
+        "id": 134,
+        "lineId": 5,
+        "name": "禹航路站",
+        "turnline": []
+      },
+      {
+        "id": 135,
+        "lineId": 5,
+        "name": "凤新路站",
+        "turnline": []
+      },
+      {
+        "id": 136,
+        "lineId": 5,
+        "name": "绿汀路站",
+        "turnline": [
+          {
+            "title": "5号线",
+            "linecolor": "rgba(0,174,206,1)"
+          },
+          {
+            "title": "3号线",
+            "linecolor": "rgba(255,205,0,1)"
+          }
+        ]
+      }
+    ]
+  }
+]
